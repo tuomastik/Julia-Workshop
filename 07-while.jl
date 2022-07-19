@@ -1,9 +1,21 @@
 # while-loops
+# ------------------------------------------------
+N = 1
+
+while N < 5
+    println(N)
+    N += 1
+end
 
 # while-loops Exercises
-
+# ------------------------------------------------
 # Print all natural numbers from 1 to N
 N = rand(10:50)
+
+while N != 0
+    println(N)
+    N -= 1
+end
 
 # Print all natural numbers from 1 to N in reverse
 N = rand(10:50)

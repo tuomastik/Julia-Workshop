@@ -1,7 +1,22 @@
 # for-loops
+# ------------------------------------------------
+for n in [1, 2, 3, 4, 5]
+    println(n)
+end
+
+for n in 1:2:10
+    println(n)
+end
+
+N = 1_000_000
+for n in 0:100_000:N
+    println(n)
+end
+
+# syntax: start:step:end
 
 # for-loops Exercises
-
+# ------------------------------------------------
 # Write a Julia program to construct this pattern below:
 # * 
 # * * 
@@ -12,6 +27,13 @@
 # * * * 
 # * * 
 # *
+
+for x in 1:5
+    println(repeat("*", x))
+end
+for x in 4:-1:1
+    println(repeat("*", x))
+end
 
 # Project Euler Problem 1
 # If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9.
